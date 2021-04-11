@@ -69,8 +69,11 @@ class listaCircular(object):
                     break
             if flag:
                 print("Posición: " + str(i))
+                print("nombre: "+temp.nombre)
+                print("apellido: "+temp.apellido)
+                print("teléfono: "+temp.tel)
             else:
-                print("Ingrese un elemento que si exista")
+                print("El número de teléfono no existe, ¿desea agregarlo?")
 
     def getDatos(self):
         nodo = self.head
